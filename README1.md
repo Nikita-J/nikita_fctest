@@ -19,7 +19,6 @@ It is recommended that you download the **fusioncharts** package if you will be 
 
    `$npm install fusionmaps`
 
-
 2. Load FusionCharts using require.
 
    `var FusionCharts = require(‘fusioncharts’);`
@@ -37,6 +36,7 @@ It is recommended that you download the **fusioncharts** package if you will be 
    **Note**: Unlike the core files that are stored in the **fusioncharts** directory, all map definition files are stored in the **maps** directory and are required to be fetched from there.
 
 5. Create the FusionCharts instance required to render the map.
+
    ```
    var chart = new FusionCharts ({
 	“type”: “World”,
@@ -53,32 +53,40 @@ It is recommended that you download the **fusioncharts** package if you will be 
 
 For certain chart types, you may need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 - To render the zoom-scatter chart, it is necessary to include the **fusioncharts.js** and **fusioncharts.charts.js** files _before_ the **fusioncharts.zoomscatter.js** file.
+  
+  ```
+  var FusionCharts = require('fusioncharts');
 
-  `var FusionCharts = require('fusioncharts');`
+  require('fusioncharts/fusioncharts.charts')(FusionCharts);
 
-  `require('fusioncharts/fusioncharts.charts')(FusionCharts);`
-
-  `require('fusioncharts/fusioncharts.zoomscatter')(FusionCharts);`
+  require('fusioncharts/fusioncharts.zoomscatter')(FusionCharts);
+  ```
 
 - To render the treemap chart, it is necessary to include the **fusioncharts.js** and **fusioncharts.powercharts.js** files _before_ the **fusioncharts.treemap.js** file.
 
-  `var FusionCharts = require('fusioncharts');`
+  ```
+  var FusionCharts = require('fusioncharts');
   
-  `require('fusioncharts/fusioncharts.powercharts')(FusionCharts);`
+  require('fusioncharts/fusioncharts.powercharts')(FusionCharts);
   
-  `require('fusioncharts/fusioncharts.treemap')(FusionCharts);`
+  require('fusioncharts/fusioncharts.treemap')(FusionCharts);
+  ```
 
 - To render the SS Grid chart _only_ the **fusioncharts.js** and the **fusioncharts.ssgrid.js** files are needed.
 
-  `var FusionCharts = require('fusioncharts');`
+  ```
+  var FusionCharts = require('fusioncharts');
   
-  `require('fusioncharts/fusioncharts.ssgrid')(FusionCharts);`
+  require('fusioncharts/fusioncharts.ssgrid')(FusionCharts);
+  ```
 
 - To render the Gantt chart _only_ the **fusioncharts.js** and the **fusioncharts.gantt.js** files are needed.
 
-  `var FusionCharts = require('fusioncharts');`
+  ```
+  var FusionCharts = require('fusioncharts');
   
-  `require('fusioncharts/fusioncharts.gantt')(FusionCharts);`
+  require('fusioncharts/fusioncharts.gantt')(FusionCharts);
+  ```
 
 ### Installing FusionMaps from Bower
 
@@ -101,6 +109,7 @@ For certain chart types, you may need to include/exclude certain files and in a 
    **Note**: Unlike the core files that are stored in the **fusioncharts** directory, all map definition files are stored in the **maps** directory and are required to be fetched from there.
 
 5. Create the FusionCharts instance required to render the map.
+
    ```
    <script>
 	new FusionCharts({
@@ -121,31 +130,39 @@ For certain chart types, you may need to include/exclude certain files and in a 
 
 - To render the zoom-scatter chart, it is necessary to include the **fusioncharts.js** and **fusioncharts.charts.js** files _before_ the **fusioncharts.zoomscatter.js** file.
 
-  `<script src = ”bower_components/fusioncharts/fusioncharts.js”> </script>`
+  ```
+  <script src = ”bower_components/fusioncharts/fusioncharts.js”> </script>
   
-  `<script src = “bower_components/fusioncharts/fusioncharts.charts.js”> </script>`
+  <script src = “bower_components/fusioncharts/fusioncharts.charts.js”> </script>
   
-  `<script src = “bower_components/fusioncharts/fusioncharts.zoomscatter.js”> </script>`
+  <script src = “bower_components/fusioncharts/fusioncharts.zoomscatter.js”> </script>
+  ```
 
 - To render the treemap chart, it is necessary to include the **fusioncharts.js** and **fusioncharts.powercharts.js** files _before_ the **fusioncharts.treemap.js** file.
 
-  `<script src = ”bower_components/fusioncharts/fusioncharts.js”> </script>`
+  ```
+  <script src = ”bower_components/fusioncharts/fusioncharts.js”> </script>
   
-  `<script src = “bower_components/fusioncharts/fusioncharts.powercharts.js”> </script>`
+  <script src = “bower_components/fusioncharts/fusioncharts.powercharts.js”> </script>
   
-  `<script src = “bower_components/fusioncharts/fusioncharts.treemap.js”> </script>`
+  <script src = “bower_components/fusioncharts/fusioncharts.treemap.js”> </script>
+  ```
 
 - To render the SS Grid chart _only_ the **fusioncharts.js** and the **fusioncharts.ssgrid.js** files are needed.
 
-  `<script src = ”bower_components/fusioncharts/fusioncharts.js”> </script>`
+  ```
+  <script src = ”bower_components/fusioncharts/fusioncharts.js”> </script>
   
-  `<script src = “bower_components/fusioncharts/fusioncharts.ssgrid.js”> </script>`
+  <script src = “bower_components/fusioncharts/fusioncharts.ssgrid.js”> </script>
+  ```
 
 - To render the Gantt chart _only_ the **fusioncharts.js** and the **fusioncharts.gantt.js** files are needed.
 
-  `<script src = ”bower_components/fusioncharts/fusioncharts.js”> </script>`
+  ```
+  <script src = ”bower_components/fusioncharts/fusioncharts.js”> </script>
   
-  `<script src = “bower_components/fusioncharts/fusioncharts.gantt.js”> </script>`
+  <script src = “bower_components/fusioncharts/fusioncharts.gantt.js”> </script>
+  ```
 
 ## What's Included
 
