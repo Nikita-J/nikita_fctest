@@ -58,6 +58,7 @@ The **fusioncharts** package includes files for all charts and widgets offered b
 **Note**: The map definition files have to be included for all maps that you want to render in your application. Unlike the core files that are stored in the **fusioncharts** directory, all map definition files are stored in the **maps** directory and are required to be fetched from there.
 
 To know which chart belongs to which package, refer the [list of charts](http://www.fusioncharts.com/dev/getting-started/list-of-charts.html){:target='_blank'}.
+
 To know the map definition file names, refer the [list of maps](http://www.fusioncharts.com/dev/getting-started/list-of-maps.html).
 
 #### Adding Files for Specific Chart Types
