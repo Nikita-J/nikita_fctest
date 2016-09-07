@@ -51,9 +51,10 @@ The **fusioncharts** package includes files for all charts and widgets offered b
 
 - To render a map, load the FusionMaps module and the map definition file for that map:
 
-  `require(‘fusioncharts/fusioncharts.maps)(FusionCharts);`
-  
-  `require(‘fusioncharts/maps/fusioncharts.world)(FusionCharts);`
+  ```
+  require(‘fusioncharts/fusioncharts.maps)(FusionCharts);  
+  require(‘fusioncharts/maps/fusioncharts.world)(FusionCharts);
+  ```
 
 **Note**: The map definition files have to be included for all maps that you want to render in your application. Unlike the core files that are stored in the **fusioncharts** directory, all map definition files are stored in the **maps** directory and are required to be fetched from there.
 
