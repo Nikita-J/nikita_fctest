@@ -28,7 +28,7 @@ It is recommended that you download the **fusioncharts** package if you will be 
 
    `require(‘fusioncharts/fusioncharts.maps’)(FusionCharts);`
    
-4. Load the map definition file(s) for the map(s) to be rendered using the format:**fusioncharts.<MAP_ALIAS>.js**, where MAP_ALIAS gets replaced by the map’s JavaScript alias. Click [here](http://www.fusioncharts.com/dev/getting-started/list-of-maps.html) to get the alias names for all map definition files. Map definition files for all maps to be rendered in the application have to be included.
+4. Load the map definition file(s) for the map(s) to be rendered using the format:**fusioncharts.&lt;MAP_ALIAS&gt;.js**, where MAP_ALIAS gets replaced by the map’s JavaScript alias. Click [here](http://www.fusioncharts.com/dev/getting-started/list-of-maps.html) to get the alias names for all map definition files. Map definition files for all maps to be rendered in the application have to be included.
 
    Assuming that you need to render the world map:
    
