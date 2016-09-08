@@ -15,9 +15,9 @@ It is recommended that you download the **fusioncharts** package if you will be 
 
 - [Quick Start](#quick-start)
 	- [Installing FusionMaps from NPM](#installing-fusionmaps-from-npm)
-		- [Including Files for Specific Chart Types Rendered via NPM](#including-files-for-specific-chart-types-rendered-via-npm)
+		- [Including Chart-specific Files for Rendering Charts via NPM](#including-chart-specific-files-for-rendering-charts-via-npm)
 	- [Installing FusionMaps from Bower](#installing-fusionmaps-from-bower)
-		- [Including Files for Specific Chart Types Rendered via Bower](#including-files-for-specific-chart-types-rendered-via-bower)
+		- [Including Chart-specific Files for Rendering Charts via Bower](#including-chart-specific-files-for-rendering-charts-via-bower)
 - [What's Included](#whats-included)
 	- [Directory Structure for FusionMaps Installed via NPM](#directory-structure-for-fusionmaps-installed-via-npm)
 	- [Directory Structure for FusionMaps Installed via Bower](#directory-structure-for-fusionmaps-installed-via-bower)
@@ -61,7 +61,7 @@ It is recommended that you download the **fusioncharts** package if you will be 
 }).render("chartContainer");
 ```
 
-#### Including Files for Specific Chart Types Rendered via NPM
+#### Including Chart-specific Files for Rendering Charts via NPM
 
 For certain chart types, you may need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 - To render the zoom-scatter chart, it is necessary to include the **fusioncharts.js** and **fusioncharts.charts.js** files _before_ the **fusioncharts.zoomscatter.js** file.
@@ -137,7 +137,7 @@ For certain chart types, you may need to include/exclude certain files and in a 
 
 	```
 
-#### Including Files for Specific Chart Types Rendered via Bower
+#### Including Chart-specific Files for Rendering Charts via Bower
 
 For certain chart types, you may need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 
