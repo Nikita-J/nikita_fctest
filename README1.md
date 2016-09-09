@@ -1,10 +1,10 @@
 ## Introduction
 
-FusionCharts Suite XT is a front-end, JavaScript-based, comprehensive collection of 90+ charts and  1000+ maps. This includes simple and complex charts (like the column and bar charts, pie and doughnut charts, the treemap, heatmap, and logarithmic charts), gauges (angular gauge, bulb gauge, thermometer gauge) and maps (all continents, major countries, and all US states).
+FusionCharts Suite XT is a front-end, JavaScript-based, comprehensive collection of 90+ charts and  1000+ maps. This includes simple and complex charts (like the column and bar charts, pie and doughnut charts, the treemap, heatmap, and logarithmic charts), gauges (like the angular gauge, bulb gauge, and the thermometer gauge) and maps (all continents, major countries, and all US states).
 
-The **fusionmaps** package includes the complete FusionCharts Suite XT; along with all the charts and widgets, it includes map definition files for all maps offered by FusionCharts. 
+The **fusionmaps** package includes the complete FusionCharts Suite XT. Along with all the charts and widgets, the package also includes map definition files for all maps offered by FusionCharts. 
 
-It is recommended that you download the **fusioncharts** package if you will be needing only the charts and widgets; with just two map definition files (for the USA and world maps) the package size is smaller and can be installed faster.
+It is recommended that you download the **fusioncharts** package if you will be needing only the charts and widgets. With just two map definition files (for the USA and world maps) the package size is smaller and can be installed faster.
 
 * Official website: [http://www.fusioncharts.com/](http://www.fusioncharts.com/)
 * Download page: [http://www.fusioncharts.com/download/](http://www.fusioncharts.com/download/)
@@ -16,9 +16,9 @@ It is recommended that you download the **fusioncharts** package if you will be 
 
 - [Quick Start](#quick-start)
 	- [Installing FusionMaps from NPM](#installing-fusionmaps-from-npm)
-		- [Chart-specific Dependencies for Rendering Charts via NPM](#chart-specific-dependencies-for-rendering-charts-via-npm)
+		- [Chart-specific Dependencies](#chart-specific-dependencies)
 	- [Installing FusionMaps from Bower](#installing-fusionmaps-from-bower)
-		- [Chart-specific Dependencies for Rendering Charts via Bower](#chart-specific-dependencies-for-rendering-charts-via-bower)
+		- [Chart-specific Dependencies](#chart-specific-dependencies)
 - [What's Included](#whats-included)
 	- [Directory Structure for FusionMaps Installed via NPM](#directory-structure-for-fusionmaps-installed-via-npm)
 	- [Directory Structure for FusionMaps Installed via Bower](#directory-structure-for-fusionmaps-installed-via-bower)
@@ -62,7 +62,7 @@ It is recommended that you download the **fusioncharts** package if you will be 
 }).render("chartContainer");
 ```
 
-#### Chart-specific Dependencies for Rendering Charts via NPM
+#### Chart-specific Dependencies
 
 For some chart types, you need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 - To render the zoom-scatter chart, it is necessary to include the **fusioncharts.js** and **fusioncharts.charts.js** files _before_ the **fusioncharts.zoomscatter.js** file.
@@ -140,7 +140,7 @@ For some chart types, you need to include/exclude certain files and in a certain
 
 	```
 
-#### Including Chart-specific Files for Rendering Charts via Bower
+#### Chart-specific Dependencies
 
 For some chart types, you need to include/exclude certain files and in a certain order. These chart types and the corresponding files are mentioned below:
 
